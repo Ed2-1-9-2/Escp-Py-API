@@ -1,0 +1,25 @@
+The path of your code :
+And
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:root:Connecting to wss://escapade.fun:2053/ws
+DEBUG:websockets.client:= connection is CONNECTING
+DEBUG:websockets.client:> GET /ws HTTP/1.1
+DEBUG:websockets.client:> Host: escapade.fun:2053
+DEBUG:websockets.client:> Upgrade: websocket
+DEBUG:websockets.client:> Connection: Upgrade
+DEBUG:websockets.client:> Sec-WebSocket-Key: kLYUad9Lz5EZQlVMSdV/Pw==
+DEBUG:websockets.client:> Sec-WebSocket-Version: 13
+DEBUG:websockets.client:> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+DEBUG:websockets.client:> User-Agent: Python/3.12 websockets/13.0
+DEBUG:websockets.client:< HTTP/1.1 101 Switching Protocols
+DEBUG:websockets.client:< Upgrade: websocket
+DEBUG:websockets.client:< Connection: Upgrade
+DEBUG:websockets.client:< Sec-WebSocket-Accept: PS0THy+JCOi7SeulZkOypWsWloA=
+DEBUG:websockets.client:= connection is OPEN
+INFO:root:WebSocket connection established.
+DEBUG:root:Serialized JoinWorld message: 0ab10165794a68624763694f694a49557a49314e694973496e523563434936496b705856434a392e65794a7063334d694f694a6b61584e6a62334a6b4969776963335669496a6f69645463356448525565573547656d5269496977695a586877496a6f784e7a49304d7a6b354e7a45774c434a70595851694f6a45334d6a517a4f546b784d5442392e704d5449416a5570437873534145664a6e47587455674b6373555a72535933534c5838597059666b466551120c6b3748645050705644587359
+DEBUG:websockets.client:> BINARY 0a b1 01 65 79 4a 68 62 47 63 69 4f 69 4a 49 55 ... 50 50 70 56 44 58 73 59 [194 bytes]
+INFO:root:Sent JoinWorld message.
+DEBUG:websockets.client:! failing connection with code 1006
+DEBUG:websockets.client:= connection is CLOSED
+ERROR:root:WebSocket connection closed with error: 1006 -
